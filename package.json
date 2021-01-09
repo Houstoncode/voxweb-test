@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev:client": "nuxt",
+    "dev:server": "nodemon server/server.js",
+    "dev": "concurrently \"yarn run dev:server\" \"npm run dev:client\"",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -15,6 +17,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "chart.js": "^2.9.4",
+    "concurrently": "^5.3.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "qs": "^6.9.4",
