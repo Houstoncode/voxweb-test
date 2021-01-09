@@ -1,0 +1,34 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#cust..
+//
+// The variables you want to modify
+@import '~vuetify/src/styles/styles.sass';
+
+$body-font-family: 'Montserrat, sans-serif';
+$text-field-rounded-border-radius: 10px;
+$btn-rounded-border-radius: 10px;
+$btn-sizes: () !default;
+$btn-sizes: map-deep-merge(
+  (
+    'x-small': 20,
+    'small': 28,
+    'default': 44,
+    'large': 48,
+    'x-large': 60,
+  ),
+  $btn-sizes
+);
+$btn-font-sizes: () !default;
+$btn-font-sizes: map-deep-merge(
+  (
+    'x-small': 0.625rem,
+    'small': 0.75rem,
+    'default': 16px,
+    'large': 0.875rem,
+    'x-large': 1rem,
+  ),
+  $btn-font-sizes
+);
+$btn-text-transform: normal;
+$btn-letter-spacing: normal;
+$card-subtitle-padding: 0;
+$card-border-radius: 10px;

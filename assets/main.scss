@@ -1,0 +1,32 @@
+.v-card {
+  padding: 24px 40px 32px 40px;
+}
+
+.v-card__actions {
+  padding: 0;
+  padding-top: 16px;
+}
+
+.input-group {
+  > .col-12 {
+    &:first-child {
+      padding-right: 40px;
+    }
+    &:last-child {
+      padding-left: 40px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .v-card {
+    padding: 24px 16px 32px 16px;
+  }
+
+  .input-group {
+    .col-12 {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+}

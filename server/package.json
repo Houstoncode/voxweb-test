@@ -1,0 +1,19 @@
+{
+    "name": "voxweb-api",
+    "version": "0.0.0",
+    "description": "VoxWeb Api",
+    "type": "module",
+    "author": "HOUSTON",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-ensure-login": "^0.1.1",
+        "ejs": "^2.6.2",
+        "express": "^4.17.1",
+        "express-session": "^1.16.1",
+        "lodash": "^4.17.20",
+        "mongoose": "^5.11.11",
+        "morgan": "^1.9.1",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0"
+    }
+}
