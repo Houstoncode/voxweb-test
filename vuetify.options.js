@@ -16,6 +16,9 @@ export default {
       },
     },
   },
+  font: {
+    family: 'Libre Baskerville',
+  },
   icons: {
     values: {
       work: {

@@ -1,9 +1,10 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#cust..
 //
 // The variables you want to modify
+/* stylelint-disable */
+$body-font-family: Montserrat, sans-serif !important;
 @import '~vuetify/src/styles/styles.sass';
 
-$body-font-family: 'Montserrat, sans-serif';
 $text-field-rounded-border-radius: 10px;
 $btn-rounded-border-radius: 10px;
 $btn-sizes: () !default;
