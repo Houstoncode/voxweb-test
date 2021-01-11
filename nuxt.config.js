@@ -53,6 +53,7 @@ export default {
     '/api': {
       target: 'http://localhost:3003',
       pathRewrite: { '^/api': '' },
+      changeOrigin: true,
       cookieDomainRewrite: {
         '*': '',
       },

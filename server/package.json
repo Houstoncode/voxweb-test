@@ -1,8 +1,8 @@
 {
     "name": "voxweb-api",
     "version": "0.0.0",
-    "description": "VoxWeb Api",
     "type": "module",
+    "description": "VoxWeb Api",
     "author": "HOUSTON",
     "dependencies": {
         "body-parser": "^1.19.0",

@@ -1,6 +1,6 @@
 import express from 'express'
 import passport from 'passport'
-import { Strategy } from 'passport-local'
+import passportLocal from 'passport-local'
 import morgan from 'morgan'
 import expressSession from 'express-session'
 import mongoose from 'mongoose'
@@ -8,7 +8,7 @@ import omit from 'lodash/omit.js'
 import User from './db/index.js'
 
 passport.use(
-  new Strategy(
+  new passportLocal.Strategy(
     { usernameField: 'login', passwordField: 'password' },
     function (login, password, cb) {
       User.findOne({ login }, (err, user) => {
