@@ -1,5 +1,8 @@
 # voxweb-technical-specification
 
+If it is not installed nodemon - please install
+npm i -g nodemon
+
 ## Build Setup
 
 ```bash
