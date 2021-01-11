@@ -18,3 +18,15 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Build Setup for npm
+
+```bash
+# install dependencies client
+$ npm i
+# install dependencies server
+$ cd server
+$ npm i
+$ cd ..
+# run serve
+$ npm run dev
